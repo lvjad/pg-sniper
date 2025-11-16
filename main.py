@@ -176,7 +176,7 @@ def generate_and_check_links():
         | |   | |_\ \     /\__/ / |\  |_| |_| |   | |___| |\ \ _ 
         \_|    \____/     \____/\_| \_/\___/\_|   \____/\_| \_(_)
                                                          
-        Created by Art3mLapa, fixed by SplitSplice.''')
+        Created by @internetf
         itemID = itemId
         item_name = get_item_name(itemID)
         print(f"[!] Item for sniping: {item_name}")
@@ -264,7 +264,7 @@ def generate_and_check_links():
                         "url": (thumbnail_url)
                     },
                     "footer": {
-                        "text": "Created By splitsplice. Best free PG roblox scrapper."
+                        "text": "Created By @internetf. Best free PG roblox scrapper."
                     },
                     "thumbnail": {
                         "url": (item_thumbnail)
@@ -281,3 +281,4 @@ def generate_and_check_links():
             print(f"[X] Failed to send webhook {random_number}")
 
 generate_and_check_links()
+
